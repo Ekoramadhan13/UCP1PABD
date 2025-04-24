@@ -45,19 +45,20 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(108, 279);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 323);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1164, 374);
+            this.dataGridView1.Size = new System.Drawing.Size(1483, 323);
             this.dataGridView1.TabIndex = 20;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(99, 8);
+            this.label3.Location = new System.Drawing.Point(598, 9);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(384, 52);
@@ -66,9 +67,10 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(364, 77);
+            this.label2.Location = new System.Drawing.Point(354, 75);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(200, 37);
@@ -77,9 +79,10 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(100, 77);
+            this.label1.Location = new System.Drawing.Point(71, 75);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(187, 37);
@@ -88,7 +91,8 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(868, 170);
+            this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnEdit.Location = new System.Drawing.Point(927, 206);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(190, 72);
@@ -99,7 +103,8 @@
             // 
             // btnTambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(654, 170);
+            this.btnTambah.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnTambah.Location = new System.Drawing.Point(712, 206);
             this.btnTambah.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(190, 72);
@@ -110,25 +115,28 @@
             // 
             // dtpTanggal
             // 
-            this.dtpTanggal.Location = new System.Drawing.Point(108, 211);
+            this.dtpTanggal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dtpTanggal.Location = new System.Drawing.Point(38, 277);
             this.dtpTanggal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpTanggal.Name = "dtpTanggal";
-            this.dtpTanggal.Size = new System.Drawing.Size(517, 26);
+            this.dtpTanggal.Size = new System.Drawing.Size(543, 26);
             this.dtpTanggal.TabIndex = 14;
             // 
             // txtJumlah
             // 
+            this.txtJumlah.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtJumlah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJumlah.Location = new System.Drawing.Point(108, 162);
+            this.txtJumlah.Location = new System.Drawing.Point(38, 206);
             this.txtJumlah.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtJumlah.Name = "txtJumlah";
-            this.txtJumlah.Size = new System.Drawing.Size(517, 35);
+            this.txtJumlah.Size = new System.Drawing.Size(543, 35);
             this.txtJumlah.TabIndex = 13;
             // 
             // cbStatusBayar
             // 
+            this.cbStatusBayar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.cbStatusBayar.FormattingEnabled = true;
-            this.cbStatusBayar.Location = new System.Drawing.Point(372, 121);
+            this.cbStatusBayar.Location = new System.Drawing.Point(328, 138);
             this.cbStatusBayar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbStatusBayar.Name = "cbStatusBayar";
             this.cbStatusBayar.Size = new System.Drawing.Size(253, 28);
@@ -137,8 +145,9 @@
             // 
             // cbPemesanan
             // 
+            this.cbPemesanan.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.cbPemesanan.FormattingEnabled = true;
-            this.cbPemesanan.Location = new System.Drawing.Point(108, 121);
+            this.cbPemesanan.Location = new System.Drawing.Point(38, 138);
             this.cbPemesanan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbPemesanan.Name = "cbPemesanan";
             this.cbPemesanan.Size = new System.Drawing.Size(253, 28);
@@ -146,10 +155,11 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(1082, 170);
+            this.btnHapus.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnHapus.Location = new System.Drawing.Point(703, 115);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(190, 72);
+            this.btnHapus.Size = new System.Drawing.Size(403, 72);
             this.btnHapus.TabIndex = 21;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
@@ -159,7 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 660);
+            this.ClientSize = new System.Drawing.Size(1517, 660);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);

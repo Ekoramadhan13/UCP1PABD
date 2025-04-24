@@ -18,7 +18,8 @@ namespace UCP1PABD
         public FormPembayaran()
         {
             InitializeComponent();
-            MessageBox.Show(cbStatusBayar == null ? "ComboBox NULL" : "ComboBox OK");
+            dataGridView1.CellClick += dataGridView1_CellClick;
+
 
             LoadComboBox();
             LoadData();
@@ -45,6 +46,7 @@ namespace UCP1PABD
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             conn.Close();
         }
 
@@ -54,6 +56,10 @@ namespace UCP1PABD
                 cbStatusBayar.Items.Clear(); // bersihin dulu
                 cbStatusBayar.Items.Add("Sukses");
                 cbStatusBayar.Items.Add("Gagal");
+
+                dataGridView1.Dock = DockStyle.Fill;
+
+
 
         }
 
@@ -103,7 +109,10 @@ namespace UCP1PABD
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+
+
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
@@ -114,6 +123,8 @@ namespace UCP1PABD
                 txtJumlah.Text = row.Cells["JumlahPembayaran"].Value.ToString();
                 cbStatusBayar.Text = row.Cells["StatusPembayaran"].Value.ToString();
             }
+
+
 
         }
 

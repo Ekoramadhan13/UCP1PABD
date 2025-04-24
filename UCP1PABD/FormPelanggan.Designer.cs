@@ -61,7 +61,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1149, 415);
+            this.dataGridView1.Size = new System.Drawing.Size(1565, 432);
             this.dataGridView1.TabIndex = 22;
             // 
             // label3
@@ -126,10 +126,10 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(672, -3);
+            this.btnHapus.Location = new System.Drawing.Point(770, 167);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(486, 75);
+            this.btnHapus.Size = new System.Drawing.Size(265, 75);
             this.btnHapus.TabIndex = 15;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
@@ -137,7 +137,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(694, 167);
+            this.btnEdit.Location = new System.Drawing.Point(949, 81);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(230, 75);
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1598, 692);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);

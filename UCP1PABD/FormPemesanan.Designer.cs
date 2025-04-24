@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(260, 41);
+            this.label1.Location = new System.Drawing.Point(420, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(606, 82);
@@ -56,7 +56,7 @@
             // cbStatus
             // 
             this.cbStatus.FormattingEnabled = true;
-            this.cbStatus.Location = new System.Drawing.Point(15, 232);
+            this.cbStatus.Location = new System.Drawing.Point(15, 228);
             this.cbStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbStatus.Name = "cbStatus";
             this.cbStatus.Size = new System.Drawing.Size(212, 28);
@@ -67,21 +67,21 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 311);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 339);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1144, 392);
+            this.dataGridView1.Size = new System.Drawing.Size(1373, 392);
             this.dataGridView1.TabIndex = 18;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // txtJumlah
             // 
             this.txtJumlah.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJumlah.Location = new System.Drawing.Point(238, 232);
+            this.txtJumlah.Location = new System.Drawing.Point(238, 228);
             this.txtJumlah.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtJumlah.Name = "txtJumlah";
-            this.txtJumlah.Size = new System.Drawing.Size(583, 40);
+            this.txtJumlah.Size = new System.Drawing.Size(213, 40);
             this.txtJumlah.TabIndex = 17;
             // 
             // cbProduk
@@ -95,7 +95,7 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(832, 214);
+            this.btnHapus.Location = new System.Drawing.Point(552, 216);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(327, 74);
@@ -106,10 +106,10 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(832, 131);
+            this.btnEdit.Location = new System.Drawing.Point(731, 132);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(327, 74);
+            this.btnEdit.Size = new System.Drawing.Size(201, 74);
             this.btnEdit.TabIndex = 14;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -117,10 +117,10 @@
             // 
             // btnTambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(496, 131);
+            this.btnTambah.Location = new System.Drawing.Point(522, 132);
             this.btnTambah.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(327, 74);
+            this.btnTambah.Size = new System.Drawing.Size(201, 74);
             this.btnTambah.TabIndex = 13;
             this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = true;

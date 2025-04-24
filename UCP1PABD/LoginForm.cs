@@ -42,5 +42,10 @@ namespace UCP1PABD
                 }
             }
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

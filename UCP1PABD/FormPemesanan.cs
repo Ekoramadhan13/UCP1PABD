@@ -90,6 +90,14 @@ namespace UCP1PABD
             conn.Close();
             LoadData();
             ClearInput();
+            int jumlah;
+            if (string.IsNullOrWhiteSpace(txtJumlah.Text) || !int.TryParse(txtJumlah.Text, out jumlah))
+            {
+                MessageBox.Show("Jumlah harus diisi dengan angka!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            cmd.Parameters.AddWithValue("@jml", jumlah);
+
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -108,14 +116,24 @@ namespace UCP1PABD
                 conn.Close();
                 LoadData();
                 ClearInput();
+                int jumlah;
+                if (string.IsNullOrWhiteSpace(txtJumlah.Text) || !int.TryParse(txtJumlah.Text, out jumlah))
+                {
+                    MessageBox.Show("Jumlah harus diisi dengan angka!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                cmd.Parameters.AddWithValue("@jml", jumlah);
+
             }
         }
+
 
         private void btnHapus_Click(object sender, EventArgs e)
         {
             if (selectedID != 0)
             {
                 conn.Open();
+
                 SqlCommand cmd = new SqlCommand("DELETE FROM Pemesanan WHERE PemesananID=@id", conn);
                 cmd.Parameters.AddWithValue("@id", selectedID);
                 cmd.ExecuteNonQuery();
@@ -171,8 +189,5 @@ namespace UCP1PABD
         {
 
         }
-
-   
-
     }
 }

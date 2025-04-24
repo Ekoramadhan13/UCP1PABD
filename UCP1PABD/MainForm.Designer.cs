@@ -97,17 +97,18 @@
             // 
             // panelMain
             // 
-            this.panelMain.Location = new System.Drawing.Point(324, 92);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelMain.Location = new System.Drawing.Point(279, 0);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(814, 342);
+            this.panelMain.Size = new System.Drawing.Size(1285, 716);
             this.panelMain.TabIndex = 10;
-            this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint);
+            this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint_1);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1192, 489);
+            this.ClientSize = new System.Drawing.Size(1564, 716);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.btnPembayaran);
             this.Controls.Add(this.btnPemesanan);
@@ -116,6 +117,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.Text = "Form2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

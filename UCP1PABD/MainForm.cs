@@ -39,9 +39,11 @@ namespace UCP1PABD
 
         private void btnPemesanan_Click(object sender, EventArgs e)
         {
+
             LoadFormInPanel(new FormPemesanan());
 
-            
+
+
         }
 
 
@@ -58,10 +60,12 @@ namespace UCP1PABD
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+           
         }
 
-       
+        private void panelMain_Paint_1(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

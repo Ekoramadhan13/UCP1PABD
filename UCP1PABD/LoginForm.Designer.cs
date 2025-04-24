@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 26);
+            this.label1.Location = new System.Drawing.Point(282, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(133, 26);
+            this.label4.Location = new System.Drawing.Point(268, 26);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(939, 108);
@@ -59,7 +59,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(547, 182);
+            this.label5.Location = new System.Drawing.Point(682, 182);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 20);
@@ -68,7 +68,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(432, 219);
+            this.textBox1.Location = new System.Drawing.Point(567, 219);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(313, 26);
@@ -77,7 +77,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(547, 267);
+            this.label6.Location = new System.Drawing.Point(682, 267);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 20);
@@ -86,7 +86,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(432, 304);
+            this.textBox2.Location = new System.Drawing.Point(567, 304);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(313, 26);
@@ -94,7 +94,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(432, 361);
+            this.button2.Location = new System.Drawing.Point(567, 361);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(315, 75);
@@ -103,11 +103,11 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1257, 450);
+            this.ClientSize = new System.Drawing.Size(1583, 719);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label6);
@@ -115,8 +115,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

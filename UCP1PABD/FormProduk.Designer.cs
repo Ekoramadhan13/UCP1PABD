@@ -50,8 +50,9 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(642, 370);
+            this.dataGridView1.Size = new System.Drawing.Size(1288, 370);
             this.dataGridView1.TabIndex = 23;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label4
             // 
@@ -103,7 +104,7 @@
             this.txtHarga.Location = new System.Drawing.Point(178, 195);
             this.txtHarga.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtHarga.Name = "txtHarga";
-            this.txtHarga.Size = new System.Drawing.Size(195, 35);
+            this.txtHarga.Size = new System.Drawing.Size(323, 35);
             this.txtHarga.TabIndex = 18;
             // 
             // txtKategori
@@ -112,7 +113,7 @@
             this.txtKategori.Location = new System.Drawing.Point(178, 150);
             this.txtKategori.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKategori.Name = "txtKategori";
-            this.txtKategori.Size = new System.Drawing.Size(195, 35);
+            this.txtKategori.Size = new System.Drawing.Size(323, 35);
             this.txtKategori.TabIndex = 17;
             // 
             // txtMerk
@@ -121,7 +122,7 @@
             this.txtMerk.Location = new System.Drawing.Point(178, 98);
             this.txtMerk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMerk.Name = "txtMerk";
-            this.txtMerk.Size = new System.Drawing.Size(195, 35);
+            this.txtMerk.Size = new System.Drawing.Size(323, 35);
             this.txtMerk.TabIndex = 16;
             // 
             // txtNamaProduk
@@ -130,13 +131,13 @@
             this.txtNamaProduk.Location = new System.Drawing.Point(178, 49);
             this.txtNamaProduk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNamaProduk.Name = "txtNamaProduk";
-            this.txtNamaProduk.Size = new System.Drawing.Size(195, 35);
+            this.txtNamaProduk.Size = new System.Drawing.Size(323, 35);
             this.txtNamaProduk.TabIndex = 15;
             this.txtNamaProduk.TextChanged += new System.EventHandler(this.txtNamaProduk_TextChanged);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(676, 98);
+            this.btnEdit.Location = new System.Drawing.Point(622, 137);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(174, 78);
@@ -147,7 +148,7 @@
             // 
             // btnTambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(475, 49);
+            this.btnTambah.Location = new System.Drawing.Point(525, 49);
             this.btnTambah.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(182, 78);
@@ -158,7 +159,7 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(475, 150);
+            this.btnHapus.Location = new System.Drawing.Point(715, 49);
             this.btnHapus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(182, 78);
